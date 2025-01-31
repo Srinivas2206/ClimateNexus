@@ -1,3 +1,5 @@
+---
+
 # Climate Nexus - Analyzing Trends and Developing Sustainable Solutions
 
 **Climate Nexus** is a data-driven project aimed at analyzing climate change trends, including global temperature rise, CO2 emissions, and their environmental impact. Using cloud platforms and advanced data analytics techniques, this project predicts future climate trends and provides sustainable solutions to mitigate climate change. The project leverages the power of machine learning models and real-time data processing to offer a comprehensive climate analysis with interactive visualizations.
@@ -36,7 +38,7 @@ The project is built with scalable cloud infrastructure, ensuring that large dat
 - **Predictive Modeling**: Machine learning models (e.g., time-series forecasting) to predict future climate trends.
 - **Data Visualizations**: Interactive graphs, charts, and maps to represent climate data.
 - **Sustainability Solutions**: Data-driven recommendations for mitigating climate change.
-- **Cloud Integration**: Scalable cloud storage and serverless data processing using AWS/Google Cloud.
+- **Cloud Integration**: Scalable cloud storage and serverless data processing using **Azure**.
 - **Interactive Dashboard**: Real-time updates and visualizations of climate data and trends.
 
 ---
@@ -47,11 +49,11 @@ The project is built with scalable cloud infrastructure, ensuring that large dat
 - **Libraries**: 
   - Python: Pandas, Matplotlib, Seaborn, Plotly
   - Machine Learning: Scikit-learn, TensorFlow (for prediction models)
-  - Cloud: AWS S3, AWS Lambda (or Google Cloud Storage & Functions)
+  - Cloud: Azure Blob Storage, Azure Functions
   - Web Development: Dash (Python), React (for advanced visualization)
 - **Data Sources**: NASA, IPCC, NOAA
 - **Version Control**: Git, GitHub
-- **Cloud Platforms**: AWS/Google Cloud for storage, processing, and analysis
+- **Cloud Platforms**: **Azure** for storage, processing, and analysis
 
 ---
 
@@ -70,10 +72,10 @@ To run the project locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. **Set up cloud storage** (AWS/Google Cloud):
-   - Create an account on [AWS](https://aws.amazon.com/) or [Google Cloud](https://cloud.google.com/).
-   - Set up an S3 bucket (for AWS) or Cloud Storage (for Google Cloud) for storing climate data.
-   - Configure environment variables for your cloud service credentials.
+3. **Set up cloud storage** (**Azure**):
+   - Create an account on [Azure](https://azure.microsoft.com/).
+   - Set up **Azure Blob Storage** for storing climate data.
+   - Configure environment variables for your Azure credentials.
 
 4. **Run the analysis**:
    - Load and preprocess the climate data using `data_preprocessing.py`.
@@ -122,8 +124,8 @@ The models were validated using performance metrics like **Mean Squared Error (M
 
 ## Cloud Computing & Scalability
 
-- **AWS/Google Cloud** is used for storing and processing large datasets.
-- **AWS Lambda** or **Google Cloud Functions** was configured for serverless data processing.
+- **Azure Blob Storage** is used for storing and processing large datasets.
+- **Azure Functions** was configured for serverless data processing.
 - The cloud infrastructure ensures high availability and scalability to handle increasing amounts of climate data efficiently.
 
 ---
