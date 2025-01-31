@@ -11,3 +11,13 @@ type CarbonContract struct {
 func (cc *CarbonContract) AddCredit(ctx contractapi.TransactionContextInterface, user string, credits int) error {
     return ctx.GetStub().PutState(user, []byte(strconv.Itoa(credits)))
 }
+
+func main() {
+    chaincode, err := contractapi.NewChaincode(&CarbonContract{})
+    if err != nil {
+        panic(err)
+    }
+    if err := chaincode.Start(); err != nil {
+        panic(err)
+    }
+}
