@@ -1,5 +1,3 @@
----
-
 # Climate Nexus - Analyzing Trends and Developing Sustainable Solutions
 
 **Climate Nexus** is a data-driven project aimed at analyzing climate change trends, including global temperature rise, CO2 emissions, and their environmental impact. Using cloud platforms and advanced data analytics techniques, this project predicts future climate trends and provides sustainable solutions to mitigate climate change. The project leverages the power of machine learning models and real-time data processing to offer a comprehensive climate analysis with interactive visualizations.
