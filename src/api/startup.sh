@@ -1,2 +1,2 @@
 #!/bin/bash
-gunicorn --chdir src/api app:app --bind 0.0.0.0:8000
+gunicorn --bind=0.0.0.0:5000 app:app
